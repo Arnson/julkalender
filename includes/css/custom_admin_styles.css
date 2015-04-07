@@ -1,0 +1,76 @@
+.to-show {
+	background-color: white;
+	font-weight: 300;
+	opacity: 0;
+	-webkit-transition:opacity .5s ease-in-out;
+	position: absolute;
+}
+.to-show:hover {
+	opacity: 1;
+}
+
+
+/**//**-------------------------------------------------------------------
+| EXAMPLE DOOR STYLES
+|--------------------------------------------------------------------*//**/
+
+/*--------- DAYS WRAPPER ---------*/
+.nbxco_post-wrapper {
+	background: rgba(255, 255, 255, 0.3);
+	margin: 7px 13px;
+	overflow: hidden;
+	/*float: left;*/
+	position: relative;
+	border-radius: 11px;
+}
+.nbxco_inner-wrapper {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 127px;
+	height: 89px;
+	border-radius: 11px;
+}
+/*--------- HEADER CONTENT ---------*/
+.nbxco_entry-header {
+	width: 100%;
+	padding: 0px 0 0px 0;
+	text-align: center;
+	border-bottom: 3px solid rgb(255, 194, 194);
+}
+.nbxco_entry-header h3 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px !important;
+	line-height: 21px !important;
+	padding: 0px 0px !important;
+}
+.nbxco_entry-header h3 a {
+	color: 			 #CE5252;
+	text-decoration: none!important;
+}
+/*--------- PAGE POST CONTENT ---------*/
+.nbxco_entry-content {
+	text-align: center;
+	margin: 0px;
+	padding: 3px 5px 5px 5px;
+	border: 0px;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.nbxco_entry-content p {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	margin: 0px;
+	font-size: 16px;
+	color: #641414;;
+}
+/* The Post Cover Image */
+.to-hide {
+	opacity: 1;
+	-webkit-transition:opacity .5s ease-in-out;
+	position: absolute;
+}
+.to-hide:hover {
+	opacity: 0;
+}
